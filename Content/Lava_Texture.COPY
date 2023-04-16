@@ -1,0 +1,248 @@
+Begin Object Class=/Script/Engine.Material Name="Lava_Texture"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionComponentMask Name="MaterialExpressionComponentMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFrac Name="MaterialExpressionFrac_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFrac Name="MaterialExpressionFrac_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAdd Name="MaterialExpressionAdd_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSubtract Name="MaterialExpressionSubtract_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionAbs Name="MaterialExpressionAbs_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionTextureSample'"Lava_Texture:MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'"Lava_Texture:MaterialExpressionTextureSample_2"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionAbs'"Lava_Texture:MaterialExpressionAbs_0"')
+      MaterialExpressionEditorX=720
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=A184DF9641D6C104A9A09E96DCE402CF
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/flowmap1.flowmap1"'
+      MaterialExpressionEditorX=-688
+      MaterialExpressionEditorY=-32
+      MaterialExpressionGuid=B6878DB94CAF3CC30EB3AFB0B514D64B
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionComponentMask_0"
+      Input=(Expression=MaterialExpressionTextureSample'"Lava_Texture:MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      R=True
+      G=True
+      MaterialExpressionEditorX=-464
+      MaterialExpressionGuid=4323FAC2408CB83D36348CA2C31E2474
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_0"
+      A=(Expression=MaterialExpressionComponentMask'"Lava_Texture:MaterialExpressionComponentMask_0"')
+      B=(Expression=MaterialExpressionConstant'"Lava_Texture:MaterialExpressionConstant_0"')
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=80
+      MaterialExpressionGuid=0154E46E496519CEEA07ACB7429A57D7
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.200000
+      MaterialExpressionEditorX=-432
+      MaterialExpressionEditorY=272
+      MaterialExpressionGuid=6390F3434A9F4F3EC389049609FEF2C9
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_0"
+      A=(Expression=MaterialExpressionMultiply'"Lava_Texture:MaterialExpressionMultiply_1"')
+      B=(Expression=MaterialExpressionTextureCoordinate'"Lava_Texture:MaterialExpressionTextureCoordinate_0"')
+      MaterialExpressionEditorX=208
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=3B93F83B48355083D4FF43BDFA71ADCC
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=166
+      MaterialExpressionEditorY=351
+      MaterialExpressionGuid=5E5096AD481AD4ABB5FBFFBF13A74C5A
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionAdd'"Lava_Texture:MaterialExpressionAdd_0"')
+      Texture=Texture2D'"/Game/Lava.Lava"'
+      MaterialExpressionEditorX=336
+      MaterialExpressionGuid=73EB899844ED8C2973F796A88FB9F9D4
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=384
+      MaterialExpressionGuid=89DE639A4DD65CD9F61A24AE57618F36
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      A=(Expression=MaterialExpressionMultiply'"Lava_Texture:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionFrac'"Lava_Texture:MaterialExpressionFrac_0"')
+      MaterialExpressionEditorX=48
+      MaterialExpressionEditorY=48
+      MaterialExpressionGuid=9B8D051E45F29C050A634D843F75C7B3
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionFrac_0"
+      Input=(Expression=MaterialExpressionTime'"Lava_Texture:MaterialExpressionTime_0"')
+      MaterialExpressionEditorX=-288
+      MaterialExpressionEditorY=352
+      MaterialExpressionGuid=90FFFCB94CF3A17799CF53A5178863ED
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_1"
+      A=(Expression=MaterialExpressionTime'"Lava_Texture:MaterialExpressionTime_0"')
+      B=(Expression=MaterialExpressionConstant'"Lava_Texture:MaterialExpressionConstant_1"')
+      ConstB=0.100000
+      MaterialExpressionEditorX=-313
+      MaterialExpressionEditorY=551
+      MaterialExpressionGuid=B09DB3474144D053B2F93E8053A624BF
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=0.500000
+      MaterialExpressionEditorX=-509
+      MaterialExpressionEditorY=689
+      MaterialExpressionGuid=7E687BF84EC997E9CBA03587ED28B1BB
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionFrac_2"
+      Input=(Expression=MaterialExpressionAdd'"Lava_Texture:MaterialExpressionAdd_1"')
+      MaterialExpressionEditorX=-256
+      MaterialExpressionEditorY=752
+      MaterialExpressionGuid=B1A8B1BA48EAA90660A178BF03233199
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionAdd_2"
+      A=(Expression=MaterialExpressionMultiply'"Lava_Texture:MaterialExpressionMultiply_2"')
+      B=(Expression=MaterialExpressionTextureCoordinate'"Lava_Texture:MaterialExpressionTextureCoordinate_0"')
+      MaterialExpressionEditorX=320
+      MaterialExpressionEditorY=752
+      MaterialExpressionGuid=3B93F83B48355083D4FF43BDFA71ADCC
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionAdd'"Lava_Texture:MaterialExpressionAdd_2"')
+      Texture=Texture2D'"/Game/Lava.Lava"'
+      MaterialExpressionEditorX=448
+      MaterialExpressionEditorY=720
+      MaterialExpressionGuid=73EB899844ED8C2973F796A88FB9F9D4
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionMultiply'"Lava_Texture:MaterialExpressionMultiply_0"')
+      B=(Expression=MaterialExpressionFrac'"Lava_Texture:MaterialExpressionFrac_2"')
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=9B8D051E45F29C050A634D843F75C7B3
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_3"
+      A=(Expression=MaterialExpressionFrac'"Lava_Texture:MaterialExpressionFrac_0"')
+      B=(Expression=MaterialExpressionConstant'"Lava_Texture:MaterialExpressionConstant_2"')
+      MaterialExpressionEditorX=96
+      MaterialExpressionEditorY=928
+      MaterialExpressionGuid=2979F3194A9E9B816B82F1A24A340748
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_2"
+      R=2.000000
+      MaterialExpressionEditorX=-78
+      MaterialExpressionEditorY=1030
+      MaterialExpressionGuid=08AB0B424CCABFCCBB4E07A45B591A3F
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionSubtract_0"
+      A=(Expression=MaterialExpressionMultiply'"Lava_Texture:MaterialExpressionMultiply_3"')
+      B=(Expression=MaterialExpressionConstant'"Lava_Texture:MaterialExpressionConstant_3"')
+      MaterialExpressionEditorX=272
+      MaterialExpressionEditorY=992
+      MaterialExpressionGuid=4AE2F07F4974E414C271DEA289EB78EE
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=128
+      MaterialExpressionEditorY=1072
+      MaterialExpressionGuid=F6CC24D140C74E83EEC9608E9DCEDF01
+      Material=Material'"Lava_Texture"'
+   End Object
+   Begin Object Name="MaterialExpressionAbs_0"
+      Input=(Expression=MaterialExpressionSubtract'"Lava_Texture:MaterialExpressionSubtract_0"')
+      MaterialExpressionEditorX=482
+      MaterialExpressionEditorY=1061
+      MaterialExpressionGuid=F81058C94798AF1C4146D4A16E2F6BA0
+      Material=Material'"Lava_Texture"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   EditorX=992
+   EditorY=144
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionComponentMask'"MaterialExpressionComponentMask_0"'
+   Expressions(2)=MaterialExpressionMultiply'"MaterialExpressionMultiply_0"'
+   Expressions(3)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   Expressions(4)=MaterialExpressionAdd'"MaterialExpressionAdd_0"'
+   Expressions(5)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(6)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(7)=MaterialExpressionTime'"MaterialExpressionTime_0"'
+   Expressions(8)=MaterialExpressionMultiply'"MaterialExpressionMultiply_1"'
+   Expressions(9)=MaterialExpressionFrac'"MaterialExpressionFrac_0"'
+   Expressions(10)=MaterialExpressionAdd'"MaterialExpressionAdd_1"'
+   Expressions(11)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   Expressions(12)=MaterialExpressionFrac'"MaterialExpressionFrac_2"'
+   Expressions(13)=MaterialExpressionAdd'"MaterialExpressionAdd_2"'
+   Expressions(14)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(15)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(16)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(17)=MaterialExpressionMultiply'"MaterialExpressionMultiply_3"'
+   Expressions(18)=MaterialExpressionConstant'"MaterialExpressionConstant_2"'
+   Expressions(19)=MaterialExpressionSubtract'"MaterialExpressionSubtract_0"'
+   Expressions(20)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(21)=MaterialExpressionAbs'"MaterialExpressionAbs_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=D43A26754DEA51B73FC935905F02657A
+   ReferencedTextureGuids(0)=12B0A1184FD3A371CEE67CA22A513A18
+   ReferencedTextureGuids(1)=39C55E80491175EBBC4AD9BCB8D1526E
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="flowmap1",TextureReference="/Game/flowmap1.flowmap1")
+   TextureStreamingData(1)=(SamplingScale=0.972839,UVChannelIndex=0,TextureName="Lava",TextureReference="/Game/Lava.Lava")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=B53FCDC64E98D45D4B5E9EA1AD06063C
+End Object
