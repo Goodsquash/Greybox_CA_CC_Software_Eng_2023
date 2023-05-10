@@ -1,6 +1,5 @@
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Gray_Box.uproject" 1
 <<<<<<< HEAD
-<<<<<<< HEAD
 "../../../Engine/Plugins/AudioGameplay/AudioGameplay.uplugin" 2
 "../../../Engine/Plugins/LightWeightInstancesEditor/LightWeightInstancesEditor.uplugin" 3
 "../../../Engine/Plugins/RenderGraphInsights/RenderGraphInsights.uplugin" 4
@@ -436,8 +435,6 @@
 "../../../Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin" 434
 "../../../Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncTest/ConcertSyncTest.uplugin" 435
 =======
-=======
->>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../Engine/Plugins/Bridge/Bridge.uplugin" 2
 "../../../Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin" 3
 "../../../Engine/Plugins/LightWeightInstancesEditor/LightWeightInstancesEditor.uplugin" 4
@@ -872,9 +869,6 @@
 "../../../Engine/Plugins/Runtime/AR/AppleAR/AppleARKitFaceSupport/AppleARKitFaceSupport.uplugin" 433
 "../../../Engine/Plugins/Runtime/AR/Google/GoogleARCore/GoogleARCore.uplugin" 434
 "../../../Engine/Plugins/Runtime/AR/Google/GoogleARCoreServices/GoogleARCoreServices.uplugin" 435
-<<<<<<< HEAD
->>>>>>> parent of 25eb586 (Small adjustments made to level)
-=======
 >>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../Engine/Content/Internationalization/icudt64l/cnvalias.icu" 436
 "../../../Engine/Content/Internationalization/icudt64l/res_index.res" 437
@@ -943,7 +937,6 @@
 "../../../Engine/Config/BaseLightmass.ini" 500
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Saved/Config/WindowsEditor/Lightmass.ini" 501
 <<<<<<< HEAD
-<<<<<<< HEAD
 "../../../Engine/Config/IOS/BaseIOSEngine.ini" 502
 "../../../Engine/Config/Mac/BaseMacEngine.ini" 503
 "../../../Engine/Config/Linux/BaseLinuxEngine.ini" 504
@@ -989,35 +982,10 @@
 "../../../Engine/Config/Linux/LinuxGame.ini" 519
 "../../../Engine/Config/HoloLens/HoloLensGame.ini" 520
 "../../../../../../Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Binaries/Win64/Gray_Box-Win64-Shipping.target" 521
-=======
-"../../../Engine/Config/Android/BaseAndroidEngine.ini" 502
-"../../../Engine/Config/IOS/BaseIOSEngine.ini" 503
-"../../../Engine/Config/Mac/BaseMacEngine.ini" 504
-"../../../Engine/Config/Android/AndroidEngine.ini" 505
-"../../../Engine/Config/HoloLens/HoloLensEngine.ini" 506
-"../../../Engine/Config/IOS/IOSEngine.ini" 507
-"../../../Engine/Config/Mac/MacEngine.ini" 508
-"../../../Engine/Config/Linux/BaseLinuxEngine.ini" 509
-"../../../Engine/Config/Unix/UnixEngine.ini" 510
-"../../../Engine/Config/LinuxArm64/LinuxArm64Engine.ini" 511
-"../../../Engine/Config/TVOS/TVOSEngine.ini" 512
-"../../../Engine/Config/Linux/LinuxEngine.ini" 513
-"../../../Engine/Config/Android/BaseAndroidGame.ini" 514
-"../../../Engine/Config/Mac/MacGame.ini" 515
-"../../../Engine/Config/IOS/BaseIOSGame.ini" 516
-"../../../../../../Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Config/HoloLens/HoloLensEngine.ini" 517
-"../../../Engine/Config/IOS/IOSGame.ini" 518
-"../../../Engine/Config/Linux/LinuxGame.ini" 519
-"../../../Engine/Config/HoloLens/HoloLensGame.ini" 520
-"../../../../../../Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Binaries/Win64/Gray_Box-Win64-Shipping.target" 521
->>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../../../../Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Binaries/Win64/Gray_Box.target" 522
 "../../../Engine/Config/IOS/IOSScalability.ini" 523
 "../../../Engine/Binaries/Win64/BootstrapPackagedGame-Win64-Shipping.target" 524
 "../../../Engine/Config/Android/AndroidScalability.ini" 525
-<<<<<<< HEAD
->>>>>>> parent of 25eb586 (Small adjustments made to level)
-=======
 >>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../Engine/Binaries/Win64/BuildPatchTool-Win64-Shipping.target" 526
 "../../../Engine/Binaries/Win64/CrashReportClient-Win64-Shipping.target" 527
@@ -1032,7 +1000,6 @@
 "../../../Engine/Plugins/Animation/ControlRig/Config/BaseControlRig.ini" 536
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Saved/Config/WindowsEditor/ControlRig.ini" 537
 "../../../Engine/Plugins/Animation/IKRig/Config/BaseIKRig.ini" 538
-<<<<<<< HEAD
 <<<<<<< HEAD
 "../../../Engine/Plugins/Enterprise/VariantManagerContent/Config/BaseVariantManagerContent.ini" 539
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Saved/Config/WindowsEditor/VariantManagerContent.ini" 540
@@ -1051,8 +1018,6 @@
 "../../../Engine/Plugins/Developer/TraceDataFiltering/Config/BaseTraceDataFilters.ini" 553
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Saved/Config/WindowsEditor/TraceDataFilters.ini" 554
 =======
-=======
->>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../Engine/Plugins/2D/Paper2D/Config/BasePaper2D.ini" 539
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Saved/Config/WindowsEditor/Paper2D.ini" 540
 "../../../Engine/Plugins/Enterprise/VariantManagerContent/Config/BaseVariantManagerContent.ini" 541
@@ -1090,7 +1055,6 @@
 "../../../Engine/Plugins/Compositing/OpenColorIO/Binaries/Win64/UnrealEditor.modules" 572
 "../../../Engine/Plugins/MovieScene/SequencerScripting/Binaries/Win64/UnrealEditor.modules" 573
 "../../../Engine/Plugins/Bridge/Binaries/Win64/UnrealEditor.modules" 574
-<<<<<<< HEAD
 <<<<<<< HEAD
 "../../../Engine/Plugins/FastBuildController/Binaries/Win64/UnrealEditor.modules" 575
 "../../../Engine/Plugins/MeshPainting/Binaries/Win64/UnrealEditor.modules" 576
@@ -1196,8 +1160,6 @@
 "../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UnrealEditor.modules" 676
 "../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UnrealEditor.modules" 677
 =======
-=======
->>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../Engine/Plugins/MeshPainting/Binaries/Win64/UnrealEditor.modules" 575
 "../../../Engine/Plugins/XGEController/Binaries/Win64/UnrealEditor.modules" 576
 "../../../Engine/Plugins/FastBuildController/Binaries/Win64/UnrealEditor.modules" 577
@@ -3041,7 +3003,6 @@
 "../../../Engine/Shaders/Private/RayTracing/RayTracingBuiltInShaders.usf" 2414
 "../../../Engine/Shaders/Private/Bink.usf" 2415
 "../../../../../../Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Intermediate/CachedAssetRegistry.bin" 2416
-<<<<<<< HEAD
 <<<<<<< HEAD
 "C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset" 2417
 "C:/Program Files/Epic Games/UE_5.0/Engine/Plugins/2D/Paper2D/Content/Tutorial/Paper2D/TutorialAssets/TutorialSprite.uasset" 2418
@@ -5028,8 +4989,6 @@
 "C:/Users/conor/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyMATSM/37/fc/6366c0018e6a5262887b204006ac62d188de.udd" 4399
 "C:/Users/conor/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/99/be/d81ab2c4ef58aafbaf5ba5c1e03df1544115.udd" 4400
 =======
-=======
->>>>>>> parent of 25eb586 (Small adjustments made to level)
 "../../../Engine/Content/EditorResources/S_Actor.uasset" 2417
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uasset" 2418
 "C:/Users/conor/OneDrive/Documents/Unreal Projects/Greybox_CA_CC_Software_Eng_2023/Content/Characters/Mannequins/Rigs/CR_Mannequin_BasicFootIK.uasset" 2419
@@ -5729,7 +5688,4 @@
 "C:/Users/conor/AppData/Local/Temp/UnrealShaderWorkingDir/312B1C594F96D652C78BF1A02429B81F/6/WorkerOutputOnly.out" 3113
 "C:/Users/conor/AppData/Local/Temp/UnrealShaderWorkingDir/312B1C594F96D652C78BF1A02429B81F/3/WorkerOutputOnly.out" 3114
 "C:/Users/conor/AppData/Local/Temp/UnrealShaderWorkingDir/312B1C594F96D652C78BF1A02429B81F/7/WorkerOutputOnly.out" 3115
-<<<<<<< HEAD
->>>>>>> parent of 25eb586 (Small adjustments made to level)
-=======
 >>>>>>> parent of 25eb586 (Small adjustments made to level)
